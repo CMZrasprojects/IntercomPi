@@ -14,6 +14,7 @@ echo "Installation des paquets APT ..."
 sudo apt update
 sudo apt install -y jackd
 sudo apt install -y jack-capture
+sudo apt install -y jalv
 sudo apt install -y python3-full
 sudo apt install -y python3-venv
 sudo apt install -y python3-socketio
@@ -39,7 +40,8 @@ echo "Installation de raveloxmidi pour RTP Midi Apple"
 sudo apt install -y git pkg-config libasound2-dev libavahi-client-dev autoconf automake
 mkdir Driver
 cd Driver
-git clone -b experimental https://github.com/ravelox/pimidi.git
+#git clone -b experimental https://github.com/ravelox/pimidi.git
+git clone https://github.com/ravelox/pimidi.git
 cd pimidi/raveloxmidi/ && ./autogen.sh && ./configure && make -j2
 sudo make install
 cd
