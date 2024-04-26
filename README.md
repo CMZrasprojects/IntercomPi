@@ -72,7 +72,10 @@ Affichage alternatif
 
   Lancer le script d'installation :
   
-    /bin/bash install.sh
+    /bin/bash IntercomPi/install.sh
+
+  Pendant l'installation :
+  - Autoriser Jackd à faire du temps réel
 
   Charger la config Companion :
 
