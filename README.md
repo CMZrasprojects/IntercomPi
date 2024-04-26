@@ -60,7 +60,7 @@ Companion :
 
   Lancer le script d'installation :
   ´´´
-  bash install.sh
+    bash install.sh
   ´´´
 
   Charger la config Companion :
