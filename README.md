@@ -66,4 +66,4 @@ Affichage alternatif
 
   Charger la config Companion :
 
-    Ouvrir la page web et "Load ..."
+    Ouvrir la page web et "import" le fichier IntercomPi.companionconfig
