@@ -131,7 +131,7 @@ echo "Faire un 'crontab -e' et ajouter '@reboot /home/pi/ScriptsDemarrage/demarr
 
 
 echo "Charger le module VirMidi pour créer des ports midi peripheriques virtuel"
-sudo echo "snd_virmidi" >> /etc/modules
+echo "snd_virmidi" | sudo tee -a /etc/modules
 echo "snd_virmidi Chargé"
 
 echo "Activer i2c sur le Raspberry"
@@ -140,9 +140,9 @@ echo "i2c pour écran oled activé !"
 
 echo "Modification des droits des services"
 chown -R pi /home/pi/systemconfig
-chmod -R 755 /home/pi/systemconfig
+chmod -R 644 /home/pi/systemconfig
 
-echo "Préparation des services Ecran, Gpio, RTPMidi  pour systemd"
+echo "Préparation des services Ecran, Gpio, RTPMidi, demarrage AES-67 pour systemd"
 sudo cp /home/pi/systemconfig/ecran-oled.service /etc/systemd/system/ecran-oled.service
 sudo cp /home/pi/systemconfig/gpio-to-midi.service /etc/systemd/system/gpio-to-midi.service
 sudo cp /home/pi/systemconfig/tcp-to-gpio.service /etc/systemd/system/tcp-to-gpio.service
