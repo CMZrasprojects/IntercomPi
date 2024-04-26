@@ -140,7 +140,7 @@ echo "i2c pour écran oled activé !"
 
 echo "Modification des droits des services"
 chown -R pi /home/pi/systemconfig
-chmod -R 644 /home/pi/systemconfig
+sudo chmod -R 644 /home/pi/systemconfig
 
 echo "Préparation des services Ecran, Gpio, RTPMidi, demarrage AES-67 pour systemd"
 sudo cp /home/pi/systemconfig/ecran-oled.service /etc/systemd/system/ecran-oled.service
@@ -149,7 +149,7 @@ sudo cp /home/pi/systemconfig/tcp-to-gpio.service /etc/systemd/system/tcp-to-gpi
 sudo cp /home/pi/systemconfig/raveloxmidi.conf /etc/raveloxmidi.conf
 sudo cp /home/pi/systemconfig/raveloxmidi.service /etc/systemd/system/raveloxmidi.service
 sudo cp /home/pi/systemconfig/demarrage-aes67.service /etc/systemd/system/demarrage-aes67.service
-rm -R /home/pi/systemconfig
+sudo rm -R /home/pi/systemconfig
 
 echo "Modification des droits des Projets et scripts"
 chown -R pi /home/pi/Projet
