@@ -2,12 +2,13 @@
 
 Utiliser un Raspberry Pi 4B dans un environnement broadcast avec diverses fonctions associees aux GPIO et divers acces depuis Companion
 
-SOFTWARE :
+# Contexte
+## SOFTWARE :
 Systeme officiel Raspberry Pi Os Lite 64
 Programmation des scripts en python dans un environnement virtuel
 Automatismes du systeme via systemd
 
-HARDWARE :
+## HARDWARE :
 
 HAT Poe Waveshare
 
@@ -23,10 +24,11 @@ Carte son USB Audio Class compliant :
 
 Carte son Ravenna / AES67 sur eth0
 
-FONCTIONS SOFTWARE :
-GPIO-to-Midi : Envoi de notes Midi depuis les 4x GPIO-in vers local et reseau compatible RTP Midi Apple
+# FONCTIONS SOFTWARE :
 
-TCP-to-GPIO : commutation des 4x GPIO-out par des commandes TCP. Commandes incluses dans Companion
+GPIO-to-Midi : Envoi de notes Midi depuis les 4x GPIO-in vers local et reseau compatible RTP Midi Apple. Decodeur 4>16 bits
+
+TCP-to-GPIO : commutation des 4x GPIO-out par des commandes TCP. Commandes incluses dans Companion. Encodeur 16>4 bits
 
 Ecran Oled : Affichage alternatif
   - Adresses IP wlan0 et eth0
@@ -37,4 +39,30 @@ Ecran Oled : Affichage alternatif
   - reserve Companion
   - Standby
 
+Fonctions audio via Jackd :
+  - Multi-Fx commutable avec : Delay 3s / Reverb / Pitch High / Pitch Low
+  - Repondeur Audio depuis commandes Midi (GPIO in) avec Annonce d'accueil, Enregistrement des messages, relecture, Suppressions des enregistrements
 
+Companion :
+  - Menu d'acces aux differentes pages
+  - Gestion des scripts de lancement jackd et Fonctions audio
+  - Gestion des interfaces reseau
+  - Acces au RTP Midi Apple
+  - Acces au Repondeur
+  - Page 15 touches > 4 GPIO via encodeur 16>4
+
+
+# Installation :
+  Recuperation du depot :
+  ´´´
+  clone git .......
+  ´´´
+
+  Lancer le script d'installation :
+  ´´´
+  bash install.sh
+  ´´´
+
+  Charger la config Companion :
+
+    Ouvrir la page web et "Load ..."
