@@ -3,10 +3,10 @@
 # Installation pour Raspberry Pi CMz !
 #
 echo "Déplacer les dossiers"
-sudo mv -r /home/pi/IntercomPi/Projet /home/pi/Projet
-sudo mv -r /home/pi/IntercomPi/ScriptsDemarrage /home/pi/ScriptsDemarrage
-sudo mv -r /home/pi/IntercomPi/systemconfig /home/pi/systemconfig
-sudo mv -r /home/pi/IntercomPi/install.sh /home/pi/install.sh
+sudo mv /home/pi/IntercomPi/Projet /home/pi/Projet
+sudo mv /home/pi/IntercomPi/ScriptsDemarrage /home/pi/ScriptsDemarrage
+sudo mv /home/pi/IntercomPi/systemconfig /home/pi/systemconfig
+sudo mv /home/pi/IntercomPi/install.sh /home/pi/install.sh
 sudo rm -R /home/pi/IntercomPi
 
 echo "Installation des paquets APT ..."
