@@ -1,0 +1,14 @@
+[Unit]
+Description=GPIO output and Sampler Service for TCP Commands from  Companion
+#After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/Projet/tcp-to-gpio/tcp-to-gpio.py
+WorkingDirectory=/home/pi/
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=tcp-to-gpio
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

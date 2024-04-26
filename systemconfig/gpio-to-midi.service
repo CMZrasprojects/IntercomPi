@@ -1,0 +1,14 @@
+[Unit]
+Description=GPIO input to Midi Through & RTP Midi
+#After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/Projet/gpio-to-midi/gpio-to-midi.py
+WorkingDirectory=/home/pi/
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=gpio-to-midi
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

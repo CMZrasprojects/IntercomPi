@@ -1,0 +1,14 @@
+[Unit]
+Description=Oled Screen Service from TCP Commands with '$' for separate lines 2 to 6
+#After=network.target
+
+[Service]
+ExecStart=/home/pi/EnvPython/bin/python3 /home/pi/Projet/ecran/ecran-oled.py
+WorkingDirectory=/home/pi/
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ecran-oled
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

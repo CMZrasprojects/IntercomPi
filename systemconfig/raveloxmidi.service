@@ -1,0 +1,11 @@
+[Unit]
+After=network.target
+Description=raveloxmidi RTP-MIDI network server
+
+[Service]
+ExecStart=/usr/local/bin/raveloxmidi -N -c /etc/raveloxmidi.conf
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

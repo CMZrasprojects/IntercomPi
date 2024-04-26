@@ -1,0 +1,10 @@
+[Unit]
+Description=Service systemd au démarrage Linux
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/ScriptsDemarrage/demarrage-aes67.sh
+
+[Install]
+WantedBy=multi-user.target
