@@ -171,5 +171,7 @@ sudo systemctl start raveloxmidi
 sudo systemctl start demarrage-aes67
 echo "Services systemd actifs"
 
+rm install.sh
+
 echo "Fin de l'installation"
 exit
