@@ -56,11 +56,8 @@ Affichage alternatif
 
 
 # Installation
-  Création d'une image Raspberry Pi OS 64 Lite sur la carte SD & Démarrage...
-
-  Modifier la config réseau : ConnexionEth0 ; ConnexionDHCP (local); Wifi Maison...
-
-    sudo nmtui
+  Création d'une image Raspberry Pi OS 64 Lite sur la carte SD & Démarrage... Avec user, password, SSID iPhone, ssh actif
+  ATTENTION : Ne connecter que la liaison Wifi, sinon les dépots github sont inaccessibles...
     
   Installation de Git :
 
@@ -74,8 +71,12 @@ Affichage alternatif
   
     /bin/bash IntercomPi/install.sh
 
-  Pendant l'installation :
-  - Autoriser Jackd à faire du temps réel
+  Pendant l'installation : Autoriser Jackd à faire du temps réel
+
+  
+  Modifier la config réseau : ConnexionEthernet ; ConnexionEthernetDHCP (local-link ; désactiver connexion auto); Nom de la connexion iPhone ; Wifi Maison...
+
+    sudo nmtui
 
   Charger la config Companion :
 
