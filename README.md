@@ -56,10 +56,16 @@ Affichage alternatif
 
 
 # Installation
+  Création d'une image Raspberry Pi OS 64 Lite sur la carte SD & Démarrage...
+
   Recuperation du depot :
   
     git clone https://github.com/CMZrasprojects/IntercomPi.git
 
+  Modifier la config réseau : ConnexionEth0 ; ConnexionDHCP (local); Wifi Maison...
+
+    sudo nmtui
+ 
   Lancer le script d'installation :
   
     /bin/bash install.sh
