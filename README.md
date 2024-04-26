@@ -58,11 +58,11 @@ Affichage alternatif
 # Installation
   Recuperation du depot :
   
-    clone git .......
+    git clone https://github.com/CMZrasprojects/IntercomPi.git
 
   Lancer le script d'installation :
   
-    bash install.sh
+    /bin/bash install.sh
 
   Charger la config Companion :
 
