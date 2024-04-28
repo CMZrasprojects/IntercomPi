@@ -30,6 +30,8 @@ sudo apt install -y python3-pip
 sudo apt install -y curl
 sudo apt install -y pmount
 sudo apt install -y lilv-utils
+sudo apt install -y ffmpeg
+sudo apt install -y mediainfo
 echo "Installation APT complète !"
 
 echo "Installation de Companion ... "
@@ -63,6 +65,15 @@ which pip
 /home/pi/EnvPython/bin/pip install argparse
 /home/pi/EnvPython/bin/pip install numpy
 /home/pi/EnvPython/bin/pip install mido
+/home/pi/EnvPython/bin/pip install gpt4free
+/home/pi/EnvPython/bin/pip install -U g4f[openai]
+/home/pi/EnvPython/bin/pip install gtts
+/home/pi/EnvPython/bin/pip install vosk
+/home/pi/EnvPython/bin/pip install pydub
+/home/pi/EnvPython/bin/pip install wave
+/home/pi/EnvPython/bin/pip install json
+/home/pi/EnvPython/bin/pip install re
+
 echo "Installation Python complète !"
 
 echo "Téléchargement Driver AES-67 ... "
@@ -141,7 +152,7 @@ sudo raspi-config nonint do_i2c 0
 echo "i2c pour écran oled activé !"
 
 echo "Modification des droits des services"
-chown -R pi /home/pi/systemconfig
+sudo chown -R pi /home/pi/systemconfig
 sudo chmod -R 644 /home/pi/systemconfig
 
 echo "Préparation des services Ecran, Gpio, RTPMidi, demarrage AES-67 pour systemd"
