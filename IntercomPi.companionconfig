@@ -30,7 +30,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "adCJZfi7Vbs-eFVgWomPn",
+											"id": "0Iwix8jaMEmVUoaMWWrMC",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -44,7 +44,7 @@
 											"delay": 0
 										},
 										{
-											"id": "1xPQN6Ul1pNiwvsDjxR9H",
+											"id": "owGeFJQ7QlzZQmpt5-Fsi",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -74,7 +74,7 @@
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 16711680,
+							"bgcolor": "0",
 							"show_topbar": "default"
 						},
 						"options": {
@@ -88,16 +88,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "u0YjpdtXMiLE2APAUkZ1r",
+											"id": "L7mrnbsXLmTb7WZWcMCav",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/bin/bash ScriptsDemarrage/jack-start-usb.sh"
 											},
 											"delay": 0
 										},
 										{
-											"id": "c9XSMz4FMEOws1I5Feie4",
+											"id": "zU_A3LONOLvuDoVY27rSC",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -141,16 +141,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ywt6iHzxfNnSMQiqeqB8g",
+											"id": "plP2_7iuJxwjIJ1u9URLo",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/bin/bash ScriptsDemarrage/jack-start-aes67.sh"
 											},
 											"delay": 0
 										},
 										{
-											"id": "yJ86ILeUdfVKAZbKMdcIq",
+											"id": "DTWBBaE1hKyCjtKfnNfYo",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -194,16 +194,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "fo_UkpXJ-lfsiVpLafO9A",
+											"id": "-20CEqqsKB-x3MI-e-bxb",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/bin/bash ScriptsDemarrage/jack-stop.sh"
 											},
 											"delay": 0
 										},
 										{
-											"id": "k_6mov44PmxqLGMbC38Sb",
+											"id": "w00JCmJDk-oYY0U-klVdr",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -215,7 +215,7 @@
 											"delay": 0
 										},
 										{
-											"id": "n76OWJLISHlZeyNX6a7y1",
+											"id": "ocuhpQXJabxYfEQUNPIO4",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -261,16 +261,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "c3qJUeunczTIhehPG7Lyv",
+											"id": "IihBse23OHx7dH3Q9PBmE",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py start delay"
 											},
 											"delay": 0
 										},
 										{
-											"id": "LF7i3WGtnl89i2rGkyX4W",
+											"id": "QiiYcBXu5E7KPMOd3zDjM",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -282,7 +282,7 @@
 											"delay": 10
 										},
 										{
-											"id": "aUmZ__0vRLXmZoRC4cWvS",
+											"id": "4kiUd6DhFYh6Po3cpTYIR",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -294,7 +294,7 @@
 											"delay": 20
 										},
 										{
-											"id": "9GudRkWTbAw1InejR5NUR",
+											"id": "FrqddAFs_k4gZtVx1VFai",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -306,7 +306,7 @@
 											"delay": 20
 										},
 										{
-											"id": "Sb022IIFnOxpOWwbdCqxJ",
+											"id": "s1Ci7FiMtf-eX_cc75yVH",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -350,16 +350,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Vw8N6A06TAsBKdvKCX8pj",
+											"id": "85MRzRSZTCGJdascgIwzT",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py start reverb"
 											},
 											"delay": 0
 										},
 										{
-											"id": "0ya0qDPJyiGQdQn2nAXnW",
+											"id": "gH2O-3YsyzpyYnaAw2utw",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -371,7 +371,7 @@
 											"delay": 10
 										},
 										{
-											"id": "OrbpW33YVh6sAjBxAdIQy",
+											"id": "dFH4vLulQUrlgV6Hqf9iv",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -383,7 +383,7 @@
 											"delay": 20
 										},
 										{
-											"id": "flXoYATyZGoSKxpjTP4No",
+											"id": "V3YzpWCbkB4bkmVQa3HhG",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -395,7 +395,7 @@
 											"delay": 20
 										},
 										{
-											"id": "M2hkQrFjfR7HKXOSuIrxP",
+											"id": "YOZ-TKnjIdT7bJx6ifXCV",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -439,16 +439,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Br6jskIXqAI0Oupl7uKZu",
+											"id": "SRyQXTb_Mzq8cXDYgV3Zb",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py start pitch_high"
 											},
 											"delay": 0
 										},
 										{
-											"id": "HPHzZ1-JdjWTz0bPBAO5E",
+											"id": "arAhu6H3TSAUglxxugLsk",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -460,7 +460,7 @@
 											"delay": 10
 										},
 										{
-											"id": "nG74EBGNRmo26EzI8Toax",
+											"id": "GoyDLXGpENypmgztR1Lne",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -472,7 +472,7 @@
 											"delay": 0
 										},
 										{
-											"id": "-jCqNc5nDzpptQNnS_N2Z",
+											"id": "2DLYfWMPuO0zuKcCxo6Xj",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -484,7 +484,7 @@
 											"delay": 0
 										},
 										{
-											"id": "K6Y0WU0xR6yrDngWlr_zt",
+											"id": "ayeuu6JACNYDmttLZ7zL0",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -528,16 +528,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "B9Y9gdaOGbZ_vskARo7dW",
+											"id": "N_N5akGChzyvkKciEb05w",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py start pitch_low"
 											},
 											"delay": 0
 										},
 										{
-											"id": "Gl695cSqlHN7jvAMnEEjf",
+											"id": "F-RF-cC40XOz7us40S0bi",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -549,7 +549,7 @@
 											"delay": 10
 										},
 										{
-											"id": "2KK_uDMzXKl9B7Oj-iTRy",
+											"id": "W3rI1UBvSA89LAhdM6JEU",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -561,7 +561,7 @@
 											"delay": 0
 										},
 										{
-											"id": "_wNcbHySKjz8YNZqb_H1o",
+											"id": "TXpZm6L4Vk9kyh7PA5uVk",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -573,7 +573,7 @@
 											"delay": 0
 										},
 										{
-											"id": "y5KUdlDt3Wwig_cal3xia",
+											"id": "xWGXvvod6VMHdLyXg7_cl",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -617,16 +617,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "2XWh2a13-VSWfu6vWRAys",
+											"id": "HWdqlq-lSebXoAyIIl6sP",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py stop"
 											},
 											"delay": 0
 										},
 										{
-											"id": "OWjOr9_zcw2Hl1tnAdtmw",
+											"id": "XXIvlqcs5OkCNeD_w-wLV",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -638,7 +638,7 @@
 											"delay": 0
 										},
 										{
-											"id": "C0r2NmM-wWzYCSkV7_pa6",
+											"id": "932qJOrPiBZOwiP71P5Wo",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -650,7 +650,7 @@
 											"delay": 0
 										},
 										{
-											"id": "nZLubQBKjXKGeaX0Dz36I",
+											"id": "w960aBxi0mWfr_A93dBzb",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -662,7 +662,7 @@
 											"delay": 0
 										},
 										{
-											"id": "Ph3GbEVHsk4C4hgFT1W8M",
+											"id": "GRqP-alh-vBtvtuh1u_yA",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -708,16 +708,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "w_4Ea6Txip7D2js8v-vz4",
+											"id": "J3-8ccHMuY5C6UK-UsjIY",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/Audio/multi-fx.py stop"
 											},
 											"delay": 0
 										},
 										{
-											"id": "KWWrMS8G72CdQMMQgBFp7",
+											"id": "GFOXJteNmWg-PurNw23SK",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -726,10 +726,10 @@
 												"location_text": "1/1/0",
 												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
 											},
-											"delay": 0
+											"delay": 10
 										},
 										{
-											"id": "puC23ZynhfQpl9EaH0eBN",
+											"id": "xu2Idu7wyf1B2J-bjf94T",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -738,10 +738,10 @@
 												"location_text": "1/1/1",
 												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
 											},
-											"delay": 0
+											"delay": 10
 										},
 										{
-											"id": "5AVR-ICv84e8kFreh4Wmz",
+											"id": "GIBR8_mznlj30ZlJG6NMU",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -750,10 +750,10 @@
 												"location_text": "1/1/2",
 												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
 											},
-											"delay": 0
+											"delay": 10
 										},
 										{
-											"id": "LFrUor7kckFsnadYHH4UY",
+											"id": "F7He_a3we3vi90JZdfqop",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -762,19 +762,19 @@
 												"location_text": "1/1/3",
 												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
 											},
-											"delay": 0
-										},
-										{
-											"id": "hz7vRt0X-9XqaUiKkhGJn",
-											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
-											"options": {
-												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/repondeur/repondeur.py start"
-											},
 											"delay": 10
 										},
 										{
-											"id": "LvTGIGghUHpfmyqSYspQ0",
+											"id": "al_kLZUbMdvWgckZCUjKP",
+											"action": "execCommand",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
+											"options": {
+												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/repondeur/repondeur-chat.py start"
+											},
+											"delay": 20
+										},
+										{
+											"id": "tQez6xiVMPkhVKRvTkg_R",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -783,7 +783,7 @@
 												"location_text": "1/2/1",
 												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
 											},
-											"delay": 10
+											"delay": 20
 										}
 									],
 									"up": []
@@ -818,16 +818,16 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "aFB5xSCS28eJ1OCSCdpAn",
+											"id": "WI22UM6C6XnspImgXg7MN",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
-												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/repondeur/repondeur.py stop"
+												"cmd": "/home/pi/EnvPython/bin/python /home/pi/Projet/repondeur/repondeur-chat.py stop"
 											},
 											"delay": 0
 										},
 										{
-											"id": "0p5-iLcTuAY-KZG1NXg00",
+											"id": "o8qon7DKpcrosTmqoBCGu",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -871,9 +871,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ungj4pT_iz0DHF9yQKOGu",
+											"id": "maCDP-3ubsb-p7p8GaQMK",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/bin/bash /home/pi/ScriptsDemarrage/reboot.sh"
 											},
@@ -912,9 +912,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "zaup7vQYdfgTGrFHNuiAv",
+											"id": "iemApdRQUvEcVUil6YFMq",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "/bin/bash /home/pi/ScriptsDemarrage/shutdown.sh"
 											},
@@ -966,7 +966,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "oRl7dYLhRUikD1q0p8N3q",
+											"id": "BMm4OCSDm16nyuT0F9LWx",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -980,7 +980,7 @@
 											"delay": 0
 										},
 										{
-											"id": "q2rSEeSYdj54EMeakLaFy",
+											"id": "g6cwyxzAOZetpDfxCVSyF",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -1177,9 +1177,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Utw_upnlqdZEInW2cm342",
+								"id": "zbH8eFjmbI82Nr3b90C9R",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1233,9 +1233,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Xre-P2E01Wtjlhf5C4OHZ",
+								"id": "ytZV5si_yglCC-3k54FeR",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1289,9 +1289,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "uAdfkBD1ORekLdMcW5r6N",
+								"id": "NBgHlYwvABiJoBSBu8lZk",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1345,9 +1345,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "zwBOcxGOgfMHAogucVDuB",
+								"id": "UHeRlHwCtZJ3mTbMl1nO1",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1434,9 +1434,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "UNuj_P7cIK6EDiIvHMdaj",
+								"id": "PnMI8aVro0LxTOH2wUxmi",
 								"type": "receive_message",
-								"instance_id": "fSosTnHDZNrIMtyiuD-20",
+								"instance_id": "NMZ0blTZGnhScMGoWNlMm",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1490,9 +1490,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "WdO0f9DCzK4YicBtadprU",
+								"id": "Gpf8pm9UcJs125DR5LR7_",
 								"type": "receive_message",
-								"instance_id": "fSosTnHDZNrIMtyiuD-20",
+								"instance_id": "NMZ0blTZGnhScMGoWNlMm",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1546,9 +1546,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "VLYdaod5bxe9nHZ2QFJ17",
+								"id": "90ZqoTkP0dGe7FhaLgbZz",
 								"type": "receive_message",
-								"instance_id": "fSosTnHDZNrIMtyiuD-20",
+								"instance_id": "NMZ0blTZGnhScMGoWNlMm",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1602,9 +1602,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "rj-Y_29bp5Kx1a6R4eXgG",
+								"id": "ZmSc0OdtUqh3Q9Vv7mWjX",
 								"type": "receive_message",
-								"instance_id": "fSosTnHDZNrIMtyiuD-20",
+								"instance_id": "NMZ0blTZGnhScMGoWNlMm",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -1675,7 +1675,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "0f_3mDqSAehVIN_g5ou1i",
+											"id": "SEsp1krEUGJGJOYPiK935",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -1689,7 +1689,7 @@
 											"delay": 0
 										},
 										{
-											"id": "rRX2UTt8SAx-UfoRR2JVz",
+											"id": "I1PT9C97R1DQAO1vONjAy",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -1859,9 +1859,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "GfHAZyCWygVdd7orROk7Q",
+											"id": "WM7ZNPc2DfSjwjUzu7LEq",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1_on",
 												"id_end": "\n"
@@ -1869,7 +1869,7 @@
 											"delay": 0
 										},
 										{
-											"id": "PlMvr5ZopWR2MglGJs95N",
+											"id": "hn9af0j4u4MMpy8DhqjVe",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -1883,9 +1883,9 @@
 									],
 									"up": [
 										{
-											"id": "w6ouLrhgZ85T_S5_eXEES",
+											"id": "IS8HTnbkDhbsoopmPJwKp",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1_off",
 												"id_end": "\n"
@@ -1894,7 +1894,7 @@
 											"disabled": false
 										},
 										{
-											"id": "YJvfnAouOl3KGsxP72NTd",
+											"id": "XabLVNSJXJJyszZJIz5eS",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -1938,9 +1938,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "SGa-_lUAyT5pun1AJ5OXi",
+											"id": "z-6mVi7QtFNAnPpCtw2Wd",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2_on",
 												"id_end": "\n"
@@ -1948,7 +1948,7 @@
 											"delay": 0
 										},
 										{
-											"id": "q4mOUKpP571cy3VzEtCta",
+											"id": "4yeE88FPY-stbgW_axuTv",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -1962,9 +1962,9 @@
 									],
 									"up": [
 										{
-											"id": "qv1n4Hgl1NmY0hJY5NFbY",
+											"id": "9Gn1LrOm7LPl2PDpDA63y",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2_off",
 												"id_end": "\n"
@@ -1973,7 +1973,7 @@
 											"disabled": false
 										},
 										{
-											"id": "nN4yYaYI3oYl8i3kw_Lvx",
+											"id": "gIUgHVHMMOpeKZb0QgGZo",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2017,9 +2017,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "hq2TkWYQs0_KjTglQ3m4s",
+											"id": "ZmeLcBANg3hg59vSLkVJE",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3_on",
 												"id_end": "\n"
@@ -2027,7 +2027,7 @@
 											"delay": 0
 										},
 										{
-											"id": "VHmxdcUb9VFOlxCClc-bO",
+											"id": "e9ZqXKT2N9L9NWa3_L3ow",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2041,9 +2041,9 @@
 									],
 									"up": [
 										{
-											"id": "lhEcNV92Z4G1ry-lHLc2r",
+											"id": "ewlKHRkhiAEQprmR9MTHs",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3_off",
 												"id_end": "\n"
@@ -2052,7 +2052,7 @@
 											"disabled": false
 										},
 										{
-											"id": "vDhS64-YR1d1igh85GJe2",
+											"id": "aKs3FdaWdxYBlZeblOneF",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2096,9 +2096,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "S2xGTLphJdQzzRdDtUbTj",
+											"id": "db1bX03CscklCpwtWcggK",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_4_on",
 												"id_end": "\n"
@@ -2106,7 +2106,7 @@
 											"delay": 0
 										},
 										{
-											"id": "iNWOz-uvNIAm1_C_EnovK",
+											"id": "yJnF_HAGSdXCv-om_7X7F",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2120,9 +2120,9 @@
 									],
 									"up": [
 										{
-											"id": "gb2BQjYCV9-R7Z1q6s97M",
+											"id": "fqR-mFdD4scMdbGQyWJST",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_4_off",
 												"id_end": "\n"
@@ -2131,7 +2131,7 @@
 											"disabled": false
 										},
 										{
-											"id": "on7qMAnmLdpJkCXDtSnRq",
+											"id": "IyhqVbUq_AWeLiTticWQR",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2188,7 +2188,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "yjFGiKJEgHwAxHOOQQyD9",
+											"id": "U43dj3DbXcZvkjSM-StTp",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -2202,7 +2202,7 @@
 											"delay": 0
 										},
 										{
-											"id": "v96yvjDmPjhfO66s041vj",
+											"id": "DwYpq7-7kg2X6ODrgyHcH",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -2356,7 +2356,7 @@
 			}
 		},
 		"5": {
-			"name": "Repondeur",
+			"name": "Repondeur 1",
 			"controls": {
 				"0": {
 					"0": {
@@ -2383,7 +2383,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "l9wmTwI73FHvpwbP6UPA1",
+											"id": "BvvK-pN0FO6CCx6bxKeN0",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -2397,7 +2397,7 @@
 											"delay": 0
 										},
 										{
-											"id": "CsiZV-lS7dr3mb8DrQuNG",
+											"id": "lvmf1ofhlUBf_U80TIuxl",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -2530,9 +2530,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "gFmHhEiWpHvuiA7PA0D4M",
+								"id": "38LKZzdrP8AHfwwG-DdD5",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -2568,6 +2568,52 @@
 					}
 				},
 				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "$(internal:page_number_6_name)",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 26112,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "J5WnoDsJBTLkHUiDZY2_c",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 6,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"1": {
 						"type": "button",
 						"style": {
@@ -2592,9 +2638,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "9hM5V0qSGy6kszqgqplbG",
+											"id": "z9cfTiMS9ZonIMtZ1qPzf",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 60,
@@ -2606,7 +2652,7 @@
 											"delay": 0
 										},
 										{
-											"id": "sS0Cu73M18XcA2_skW0YH",
+											"id": "gQliYRbnbfExwgp9bPsrY",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2621,9 +2667,9 @@
 									],
 									"up": [
 										{
-											"id": "5WBDIC8nnxL0NcyFBilc5",
+											"id": "omOw_DerXKQK8ZOv4m_er",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 60,
@@ -2636,7 +2682,7 @@
 											"disabled": false
 										},
 										{
-											"id": "ds_FNoUKv3ncMUdzqhUOp",
+											"id": "AJ2kUtDyBX6QC37-e4CHb",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2679,9 +2725,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "YLiBrWyT6ozS55x0xPXBH",
+											"id": "ZN8OkWVZoTR59x5f_qtbg",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 62,
@@ -2693,7 +2739,7 @@
 											"delay": 0
 										},
 										{
-											"id": "be0y2r4oNRPWyMfiUAPnS",
+											"id": "Xzkv036AYRkbjbMQCBQ1W",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2708,9 +2754,9 @@
 									],
 									"up": [
 										{
-											"id": "97ScfbLV8TqUl3DBdHdk_",
+											"id": "BRcCB9X6HxDO1AJjodtlW",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 62,
@@ -2723,7 +2769,7 @@
 											"disabled": false
 										},
 										{
-											"id": "xHUdRSEIv4EmgSu7zBUVc",
+											"id": "TtiMSoXbAcl815wppT00y",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2766,9 +2812,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "v723TZdEB4ls9iqsrVS1u",
+											"id": "RZMs3foDTrKVbS-hkmo73",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 64,
@@ -2780,7 +2826,7 @@
 											"delay": 0
 										},
 										{
-											"id": "1eK_QD4MhzY6dldyZB6hx",
+											"id": "FZnpW41ErHJ913ZW_iCke",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2795,9 +2841,9 @@
 									],
 									"up": [
 										{
-											"id": "LOUvlbZf_nPx0eo6a5E_E",
+											"id": "Klegdu38YC9nVhgg-ILGf",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 64,
@@ -2810,7 +2856,7 @@
 											"disabled": false
 										},
 										{
-											"id": "xcjOLPnz0H1t8oJAsqn4O",
+											"id": "iGq6Xb6SVtjaeiEdLOV0l",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2853,9 +2899,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4etE4NMgVJ0bsQx59EcAx",
+											"id": "SswT-ibDm-Rv6IuZEhaaa",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 65,
@@ -2867,7 +2913,7 @@
 											"delay": 0
 										},
 										{
-											"id": "65cMamb5Z4k6ZK-wza_Se",
+											"id": "3oONGrwuov-rybEPVmQWq",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2882,9 +2928,9 @@
 									],
 									"up": [
 										{
-											"id": "B97EmRk_QyyqVe_hMejNu",
+											"id": "pmhiogSjSSuWSR-cYFKCM",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 65,
@@ -2897,7 +2943,7 @@
 											"disabled": false
 										},
 										{
-											"id": "mWobrisdWQA4ADhCLDIG6",
+											"id": "TX4anO3suYmlH_-khML7j",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2942,9 +2988,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "MLQb9-cBWMPoa54UQxCyL",
+											"id": "TTNmjmXPx4jNZL5XBBKoa",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 67,
@@ -2956,7 +3002,7 @@
 											"delay": 0
 										},
 										{
-											"id": "cQLi7szZOJlFJosRD76rO",
+											"id": "bMnYt-OKy1YmhiyC7hKEG",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -2971,9 +3017,9 @@
 									],
 									"up": [
 										{
-											"id": "-MHc4CI4e_N0cUDss5-nB",
+											"id": "p9FZJW_bcfKCM7XWoKMYV",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 67,
@@ -2986,7 +3032,7 @@
 											"disabled": false
 										},
 										{
-											"id": "rsFeUsILQFRdIbWzy3nFH",
+											"id": "LSeaR5nxgHog7jUYjZc3W",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3029,9 +3075,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "BNrOwp4A9hX9H6JKu8kQH",
+											"id": "hP1ulroec0Moy-jFThT-_",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 69,
@@ -3043,7 +3089,7 @@
 											"delay": 0
 										},
 										{
-											"id": "T7GIDTyRnMqQGfo9KlciT",
+											"id": "-PMmJfcNcjTV3xJyb-htZ",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3058,9 +3104,9 @@
 									],
 									"up": [
 										{
-											"id": "rzBKveFs0YolwmWr9gTJJ",
+											"id": "4iD34arrxBIk1KM8FA5yH",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 69,
@@ -3073,7 +3119,7 @@
 											"disabled": false
 										},
 										{
-											"id": "nJQtqCJ1BIW_D4DutjeZF",
+											"id": "1m2-ds5-8XjgxFZ5vUchL",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3116,9 +3162,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "xmvVqmKngMljakMcup47Q",
+											"id": "VROZ2Msft-ilc9zAHjAJs",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 71,
@@ -3130,7 +3176,7 @@
 											"delay": 0
 										},
 										{
-											"id": "o-IKiIkR05Nuu-_Hka3Aq",
+											"id": "z7NlHVaQ6YmzZIgBmYeqm",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3145,9 +3191,9 @@
 									],
 									"up": [
 										{
-											"id": "zVTUnkGH2mmTvmO_Wa2Nr",
+											"id": "0lrGl3YjWxjLYmmVWWJnm",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 71,
@@ -3160,7 +3206,7 @@
 											"disabled": false
 										},
 										{
-											"id": "NLmIpz6cMBnxQFtQdwPZv",
+											"id": "8B1w5WW1VJX4WCUfYMSG4",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3203,9 +3249,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ya28YwBLcmGfwF5qFBn3A",
+											"id": "J8JCE26Zwtghmh3Z85rSn",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 73,
@@ -3217,7 +3263,7 @@
 											"delay": 0
 										},
 										{
-											"id": "D40zME7N0GrHsbtBcXDh4",
+											"id": "Uk4vHR0Sm2kzVE8-MU-nP",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3232,9 +3278,9 @@
 									],
 									"up": [
 										{
-											"id": "5-5rot0FJ0HM-mycVSeaU",
+											"id": "OtVv-Z6pZYnyW9dSa9-W6",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 73,
@@ -3247,7 +3293,7 @@
 											"disabled": false
 										},
 										{
-											"id": "qUQ2mNt9Ybz_cSSJtK-y5",
+											"id": "7jsz4vt5hz_yEpT68fgZw",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3303,7 +3349,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ls_r4lx9eA2JyWBId6-74",
+											"id": "jg6v2h9n4vNtu5CY4QlB1",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -3317,7 +3363,7 @@
 											"delay": 0
 										},
 										{
-											"id": "d82GuDWaEe7BNlN56bKYY",
+											"id": "Q6E7NHxdacUd9Tq7rPN_6",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -3450,9 +3496,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Y0bAww0l7fcqiVMYpLWXw",
+								"id": "wlWLBow8Yk2WDzLru3l8M",
 								"type": "receive_message",
-								"instance_id": "qesBxMFLFjUagTosWtvRA",
+								"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 								"options": {
 									"msgType": "noteon",
 									"channel": 1,
@@ -3488,6 +3534,52 @@
 					}
 				},
 				"1": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "$(internal:page_number_5_name)",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 26112,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "KvnI_VcJfE9bekVw-pjiA",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 5,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"1": {
 						"type": "button",
 						"style": {
@@ -3512,9 +3604,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "gfl2gfvttcvxk3Y1fUjOD",
+											"id": "Hh1T6OqIl6CvZD0mCvZMV",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 75,
@@ -3526,7 +3618,7 @@
 											"delay": 0
 										},
 										{
-											"id": "EyyksKc2mNx0-5CCKN2bK",
+											"id": "JYAatmtAwMUZTdWnBeQJK",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3541,9 +3633,9 @@
 									],
 									"up": [
 										{
-											"id": "HVylw_zFXKCmtTcYnAb9u",
+											"id": "bG8Mart5SEJMcsvtVxggV",
 											"action": "noteon",
-											"instance": "qesBxMFLFjUagTosWtvRA",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
 											"options": {
 												"channel": 1,
 												"note": 75,
@@ -3556,7 +3648,268 @@
 											"disabled": false
 										},
 										{
-											"id": "7fNhOdhGsKTjYvu5lQNKc",
+											"id": "MCCCQQtbw4sdWH5Jx9twV",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": "0",
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Transcription",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": "0",
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "R43I33Dbkz3YNMN7Jr5e_",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 77,
+												"velocity": 127,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0
+										},
+										{
+											"id": "Mx29_6kOKYQvnYLyw17CB",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0,
+											"disabled": false
+										}
+									],
+									"up": [
+										{
+											"id": "qDcxDs8C3TU_TFYFW4JI0",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 77,
+												"velocity": 0,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0,
+											"disabled": false
+										},
+										{
+											"id": "8XBLignLyp4MbDyL7zI1s",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": "0",
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Chat",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": "0",
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "SwGVZ3tbMh1yEHpCMmLi9",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 78,
+												"velocity": 127,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0
+										},
+										{
+											"id": "WoBvCU1NB-Niurh0Ek3lT",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0,
+											"disabled": false
+										}
+									],
+									"up": [
+										{
+											"id": "QhSZAyTCl6ixv_7m6dGrP",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 78,
+												"velocity": 0,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0,
+											"disabled": false
+										},
+										{
+											"id": "ypAboXnBNCazDywqfj81u",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": "0",
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Arret Lecture",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": "0",
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rRXqOoq6HJaI-pIJ0c9fe",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 80,
+												"velocity": 127,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0
+										},
+										{
+											"id": "8QWinxUaV7Ck0uUwowP7n",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0,
+											"disabled": false
+										}
+									],
+									"up": [
+										{
+											"id": "VQSRPektNfFaGqMlOzFrr",
+											"action": "noteon",
+											"instance": "rfbwa8ITsSe6M1iB26Iqn",
+											"options": {
+												"channel": 1,
+												"note": 80,
+												"velocity": 0,
+												"varValue": "",
+												"useVariables": false,
+												"relValue": false
+											},
+											"delay": 0,
+											"disabled": false
+										},
+										{
+											"id": "Zi3GqmYoG7nXYWo6Ui7ZW",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3612,7 +3965,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "8a9gEdnRQSTwd7PmK8tEt",
+											"id": "9Atd1j0pawU6RFu8L95jU",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -3626,7 +3979,7 @@
 											"delay": 0
 										},
 										{
-											"id": "Xol168PNGelJtkVZgqjtZ",
+											"id": "UFO9ggIITeGUT2UZiqf-q",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -3796,9 +4149,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "wP2BSElCpEcCTt5j-32kL",
+											"id": "L4TrRfiU3DoTCcDOpTvM4",
 											"action": "send",
-											"instance": "8v9EzNjrF0eRt-JTJuVnn",
+											"instance": "ShOwRPIgt7_vlL2ahRGzR",
 											"options": {
 												"id_send": "info5_Ligne 1$Ligne 2$Ligne 3$Ligne 4$Ligne 5",
 												"id_end": "\n"
@@ -3860,7 +4213,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "c-pIJGRt64kx2CrV70ss-",
+											"id": "vG5NVOOT-Tbc1RTx_afsa",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -3874,7 +4227,7 @@
 											"delay": 0
 										},
 										{
-											"id": "gszO1M8GICRqN_Zs9VhQQ",
+											"id": "QmPY-4UtgnJs9BAbMAp_l",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -3918,9 +4271,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "HPh9knna05Z6P2BJVPIsM",
+											"id": "DK4hR0IJtb6eHkeEy9D7X",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1_on",
 												"id_end": "\n"
@@ -3928,7 +4281,7 @@
 											"delay": 0
 										},
 										{
-											"id": "qZwo7UNply1hsBwXO3vhP",
+											"id": "XR-qDXOjArimegu7SanTh",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3942,9 +4295,9 @@
 									],
 									"up": [
 										{
-											"id": "tkEd6HxVN5959fJOmWGs3",
+											"id": "jZtqlSpUrRO22krw0_nOR",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1_off",
 												"id_end": "\n"
@@ -3953,7 +4306,7 @@
 											"disabled": false
 										},
 										{
-											"id": "QSJbOxR8mho1-lXKPG4PA",
+											"id": "mkhmxweQQleKmn7OyvcWM",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -3997,9 +4350,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "AOVe5R7OysQZ5bOwTezmM",
+											"id": "zaZciWKnCnTu3zAlZiD6E",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2_on",
 												"id_end": "\n"
@@ -4007,7 +4360,7 @@
 											"delay": 0
 										},
 										{
-											"id": "R-zPO18zROSn1nZYgvpIg",
+											"id": "_JTXj6gtwj0nTwR1adpmS",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4021,9 +4374,9 @@
 									],
 									"up": [
 										{
-											"id": "9_rshWgEenOlmegKP_Dbf",
+											"id": "9_AHXH0FNioK6iYD9aJEY",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2_off",
 												"id_end": "\n"
@@ -4032,7 +4385,7 @@
 											"disabled": false
 										},
 										{
-											"id": "RdatGejaDuRBrKBPbMqTq",
+											"id": "sfFl2hZ_2j9KbOy1nRCjW",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4076,9 +4429,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "EJQwnXhScjZ04Z0EzVidz",
+											"id": "QsCiBw9daDyfnY1XmkqAu",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2_on",
 												"id_end": "\n"
@@ -4086,7 +4439,7 @@
 											"delay": 0
 										},
 										{
-											"id": "2fkNmzVrNM5_v06Y69WQk",
+											"id": "81Ey8YEfd_G26EbVAtw6B",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4100,9 +4453,9 @@
 									],
 									"up": [
 										{
-											"id": "_OXu_iXpgc6jPjh0H5aBn",
+											"id": "9Y3EcarOBR4Q8WwZiIxzk",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2_off",
 												"id_end": "\n"
@@ -4111,7 +4464,7 @@
 											"disabled": false
 										},
 										{
-											"id": "9Eg-kNMHQheTrUP9gGu8u",
+											"id": "Bgt3JoR2YfvLQPlR7gi2B",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4155,9 +4508,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Sof9h7C62wryqQlk-Je6J",
+											"id": "z-XN_eOXEqVt8PwoozXho",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3_on",
 												"id_end": "\n"
@@ -4165,7 +4518,7 @@
 											"delay": 0
 										},
 										{
-											"id": "9yMlSMA_hAH-vfG-dvFMp",
+											"id": "eNMmoVbJZfbo7hIjj4_3T",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4179,9 +4532,9 @@
 									],
 									"up": [
 										{
-											"id": "tqOp5ykaKI7U2QlSzJLd_",
+											"id": "FP_N71kC9uhediT70yla3",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3_off",
 												"id_end": "\n"
@@ -4190,7 +4543,7 @@
 											"disabled": false
 										},
 										{
-											"id": "4oQeiYM_Se-eaTubJ-2_0",
+											"id": "4yEhRyvf08lA4fdrIL6eU",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4236,9 +4589,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "nudkhzszynB-F2EcbQKvD",
+											"id": "hoEiXu2g6tawkzwz0-4D5",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&3_on",
 												"id_end": "\n"
@@ -4246,7 +4599,7 @@
 											"delay": 0
 										},
 										{
-											"id": "y8pFFPQm7l3KSMssy-jhG",
+											"id": "Nb4CXS8jmSXEns8LZCuSW",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4260,9 +4613,9 @@
 									],
 									"up": [
 										{
-											"id": "I76FBdIKTI9H1tZRgmjyr",
+											"id": "9QiMJRqdubd4PR2z2Veb_",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&3_off",
 												"id_end": "\n"
@@ -4271,7 +4624,7 @@
 											"disabled": false
 										},
 										{
-											"id": "latsLYMaeRnvb_Nq1qE4a",
+											"id": "4PPm0GBJ22Xm4XuxBVFCl",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4315,9 +4668,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "aPHokaJkiUFncH7YOa35r",
+											"id": "AGAHi37bnQ0C3kwAjiYf3",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&3_on",
 												"id_end": "\n"
@@ -4325,7 +4678,7 @@
 											"delay": 0
 										},
 										{
-											"id": "sSWm638tkPx_y8PDXf4dd",
+											"id": "wqzHPDbnxY58JGpIj-Y1h",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4339,9 +4692,9 @@
 									],
 									"up": [
 										{
-											"id": "MfUDhTGbXGySdWB_x_dBN",
+											"id": "jVkCpYibDcEe5MqkdOeRC",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&3_off",
 												"id_end": "\n"
@@ -4350,7 +4703,7 @@
 											"disabled": false
 										},
 										{
-											"id": "zX6yPiwSSJDe3mff6m7gt",
+											"id": "4wGQV0zp-IUSTUmZTC-vd",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4394,9 +4747,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "v7WD4ByQUrV5wIakmrL9j",
+											"id": "QjgaRs27fp2BfxxphF2jT",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&3_on",
 												"id_end": "\n"
@@ -4404,7 +4757,7 @@
 											"delay": 0
 										},
 										{
-											"id": "0Z-l_VY849y6nCuGj8bTn",
+											"id": "DrAD0ZsMyGP48SEFavFcc",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4418,9 +4771,9 @@
 									],
 									"up": [
 										{
-											"id": "_KuP8-mfF8aha7mtONpFD",
+											"id": "MnFkvXNTCO_IxQ9RzWtKW",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&3_off",
 												"id_end": "\n"
@@ -4429,7 +4782,7 @@
 											"disabled": false
 										},
 										{
-											"id": "evRdfVafIUrqS1Q3FYuR8",
+											"id": "2oBXRtV5ZizkKC9s3h06P",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4473,9 +4826,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "-3Z6gt5xPzU6pdfzpZrlC",
+											"id": "eUiWX8BeURNLQFfA8BMiG",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_4_on",
 												"id_end": "\n"
@@ -4483,7 +4836,7 @@
 											"delay": 0
 										},
 										{
-											"id": "l9AHzbJhrRFmMLaDwXZjT",
+											"id": "8mEeQvAsUOz6QGxkIzC1V",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4497,9 +4850,9 @@
 									],
 									"up": [
 										{
-											"id": "MtoKIC67AWHci3p8VPNHc",
+											"id": "ltOfS8cNGfmi7fBuRiSR3",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_4_off",
 												"id_end": "\n"
@@ -4508,7 +4861,7 @@
 											"disabled": false
 										},
 										{
-											"id": "PrYsezuaWGhJUDL-xX_9X",
+											"id": "QF2gP_Mkd9sY7e3lJ0FME",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4554,9 +4907,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "I-ksvDtZP3r9fuekgxx-y",
+											"id": "AaZJ_7jQea9660eeRpjIA",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&4_on",
 												"id_end": "\n"
@@ -4564,7 +4917,7 @@
 											"delay": 0
 										},
 										{
-											"id": "qQAPFZ8lQr-WRvb2bs4Tu",
+											"id": "iYdQJJj7sJqYjfez7JX9g",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4578,9 +4931,9 @@
 									],
 									"up": [
 										{
-											"id": "9W7hMF9I5ik5fafd6SC47",
+											"id": "vaMobHl50vsYzmbkRk1D8",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&4_off",
 												"id_end": "\n"
@@ -4589,7 +4942,7 @@
 											"disabled": false
 										},
 										{
-											"id": "LgjZTIykLX_MwpVacAysU",
+											"id": "acUvnek5YBLYG8_gKa9Vv",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4633,9 +4986,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "WP6Zg1mLPVLYjtoliPsTG",
+											"id": "U-dUSjxouMsUFomPHYMHX",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&4_on",
 												"id_end": "\n"
@@ -4643,7 +4996,7 @@
 											"delay": 0
 										},
 										{
-											"id": "-7GkqAoLBOfEKwUoRps6Y",
+											"id": "Dr211HJifHI48uRtkrQQg",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4657,9 +5010,9 @@
 									],
 									"up": [
 										{
-											"id": "dphUiXiSwKnsyeDeVEEk2",
+											"id": "4_WDmOnPGjAIsha_q4KdP",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&4_off",
 												"id_end": "\n"
@@ -4668,7 +5021,7 @@
 											"disabled": false
 										},
 										{
-											"id": "GYtysddyBumzG4uZiUWwM",
+											"id": "s7c5aqpfKo449OuEyv4Jk",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4712,9 +5065,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "rljtlKwD1Xiebx2BunOT3",
+											"id": "BbLj9if5N59NDOrupipi2",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&4_on",
 												"id_end": "\n"
@@ -4722,7 +5075,7 @@
 											"delay": 0
 										},
 										{
-											"id": "WxW7OP-Uq4OfZ1YVtKTjo",
+											"id": "qW6A6wAKQDeFnnXVVMCH5",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4736,9 +5089,9 @@
 									],
 									"up": [
 										{
-											"id": "xFYX5fY5N6svMBN5SA-vn",
+											"id": "aJ7_eSXYAAuEFudRv2kM_",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&4_off",
 												"id_end": "\n"
@@ -4747,7 +5100,7 @@
 											"disabled": false
 										},
 										{
-											"id": "uA9AQcr5iePQ7VmN9HYMY",
+											"id": "NjkWgICUVbxuSmlRF4lpX",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4791,9 +5144,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "NNwp7tfvUrwkvNvwuUJU5",
+											"id": "Ai6kvizIh0_8A5g3D0IAg",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3&4_on",
 												"id_end": "\n"
@@ -4801,7 +5154,7 @@
 											"delay": 0
 										},
 										{
-											"id": "CJx9fMbwfRm7PSiL1q3Sf",
+											"id": "lc9CzC0ApQ0P7sEZzXxwe",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4815,9 +5168,9 @@
 									],
 									"up": [
 										{
-											"id": "grREOYvhNmj76OjBV36fJ",
+											"id": "JfPj_3-mZLSov55Hy-Fzt",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_3&4_off",
 												"id_end": "\n"
@@ -4826,7 +5179,7 @@
 											"disabled": false
 										},
 										{
-											"id": "K3RjgufOdELGd2ytHEImz",
+											"id": "MnffrP-4qCLHEUghYOoA3",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4883,7 +5236,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "CAVeDTUjioHrrLbSQs01t",
+											"id": "Vxbo2o8fPrmpu7wvDI1XX",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -4897,7 +5250,7 @@
 											"delay": 0
 										},
 										{
-											"id": "DZtQMpXCF6AL05KYRpRbV",
+											"id": "Jjr5c2y3LXzisVlCT9lgL",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -4941,9 +5294,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "-D9_jqe7wUhv360USIU6a",
+											"id": "V-IemX1GplhTrwUZo5cLf",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&3&4_on",
 												"id_end": "\n"
@@ -4951,7 +5304,7 @@
 											"delay": 0
 										},
 										{
-											"id": "Rvq9tM-R3aPjU49bI__fJ",
+											"id": "Hg3xJoGpQHwWFLJfzkjuJ",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -4965,9 +5318,9 @@
 									],
 									"up": [
 										{
-											"id": "94wZ6qpOxITS7cs9JFaXX",
+											"id": "h8jAaZZrLx5o1gWSwCxXV",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&3&4_off",
 												"id_end": "\n"
@@ -4976,7 +5329,7 @@
 											"disabled": false
 										},
 										{
-											"id": "bxLkOLxvAZw1zUJz_CCnW",
+											"id": "UMSVgIbk-nm4-cGW6-Lad",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5020,9 +5373,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "sRfgssiQlAdThhbQbMel5",
+											"id": "7kjqPW8_rPFIsTwIIj9gA",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&3&4_on",
 												"id_end": "\n"
@@ -5030,7 +5383,7 @@
 											"delay": 0
 										},
 										{
-											"id": "HiepygpKQLs8CcqbwOsDQ",
+											"id": "lx586TjfUqwOlVuZsm9Ig",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5044,9 +5397,9 @@
 									],
 									"up": [
 										{
-											"id": "hCzcd6FO21JlrKOtdReoT",
+											"id": "sGkIdgeQercfeg69Wy_Lq",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_2&3&4_off",
 												"id_end": "\n"
@@ -5055,7 +5408,7 @@
 											"disabled": false
 										},
 										{
-											"id": "swqHM3OqEAI72ER_Q9G5o",
+											"id": "EzHvcK_aFdiBGtvCSekuo",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5099,9 +5452,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "U2v7g52pfRL6NLb1Bnhxc",
+											"id": "kMmLKd6XpoGh0QPjovPWV",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&3&4_on",
 												"id_end": "\n"
@@ -5109,7 +5462,7 @@
 											"delay": 0
 										},
 										{
-											"id": "-I5j2HtCLbfGF0--l6h_X",
+											"id": "1cGHGnWRu2v1PULrWmQXJ",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5123,9 +5476,9 @@
 									],
 									"up": [
 										{
-											"id": "6HXdxWXGq8SqoEGpVe1He",
+											"id": "oB0oQDcbyqiOzhc6fK2Ht",
 											"action": "send",
-											"instance": "XBduAAAU76gCjTGfWQFOq",
+											"instance": "5hulcqeppr8pIs7FgRZ2f",
 											"options": {
 												"id_send": "switch_1&2&3&4_off",
 												"id_end": "\n"
@@ -5134,7 +5487,7 @@
 											"disabled": false
 										},
 										{
-											"id": "D9YeCcXifAMmpIMuV0HH5",
+											"id": "puWY-vNzEwVPXlGm-rNRq",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5191,7 +5544,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "hOy1OvbAjb0eHpcuR0Mnp",
+											"id": "xwHzHbphLdqd_Zj8siR38",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -5205,7 +5558,7 @@
 											"delay": 0
 										},
 										{
-											"id": "dVUfrq5pMTfo50HK6XPpT",
+											"id": "IEAbXxfVB71GTTGc4iYd2",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -5249,14 +5602,15 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "0zQt4S9MneDVhw47Tl6jT",
+											"id": "6uPgNDQwjdqpyvli7GFbx",
 											"action": "MIXER_Current/Monitor/Fader/Level",
-											"instance": "WZFjtI3qLDlzbmwGoyKIi",
+											"instance": "jdllcbu7O2YJzDGDFFOHw",
 											"options": {
 												"Val": "-35",
 												"Rel": false
 											},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": 4
 										}
 									],
 									"up": []
@@ -5293,14 +5647,15 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "KK9_XaHXdbaY-XCvCg1Tk",
+											"id": "TKMbOqzD8bcTCL4kSI6eF",
 											"action": "MIXER_Current/Monitor/Fader/Level",
-											"instance": "WZFjtI3qLDlzbmwGoyKIi",
+											"instance": "jdllcbu7O2YJzDGDFFOHw",
 											"options": {
 												"Val": "-80",
 												"Rel": true
 											},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": 4
 										}
 									],
 									"up": []
@@ -5337,16 +5692,17 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "89X-K-Y3-XXBin1w1jXcv",
+											"id": "NNy3R-6Y3BNt2SX9U49-2",
 											"action": "MIXER_Current/Monitor/DimmerOn",
-											"instance": "WZFjtI3qLDlzbmwGoyKIi",
+											"instance": "jdllcbu7O2YJzDGDFFOHw",
 											"options": {
 												"Val": 1
 											},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": 4
 										},
 										{
-											"id": "FAM1cLkIF-_GP3tVLQGWf",
+											"id": "tOjzxbW1zDyR7GIPcZk5E",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5368,16 +5724,17 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "d_4LTOZJ8VeMx2qw4m-A2",
+											"id": "B_Lhi7Fb_bIQx1qOWMZ4C",
 											"action": "MIXER_Current/Monitor/DimmerOn",
-											"instance": "WZFjtI3qLDlzbmwGoyKIi",
+											"instance": "jdllcbu7O2YJzDGDFFOHw",
 											"options": {
 												"Val": 0
 											},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": 4
 										},
 										{
-											"id": "2HvL-fnuYK8byvNd3gBgi",
+											"id": "vFMu9C-vpFAxtE1PVX-UM",
 											"action": "bgcolor",
 											"instance": "internal",
 											"options": {
@@ -5434,7 +5791,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "S7d_4a6C3J3aC6SLe6a6s",
+											"id": "czHKMdt-0if9dpiwGgpW0",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -5448,7 +5805,7 @@
 											"delay": 0
 										},
 										{
-											"id": "G8G3V3uu1L-EnlPO9vnaT",
+											"id": "wb3dCdtSw6Gd_Qnvg1-6L",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -5492,9 +5849,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "2oSnch-rR15zugUdZ3lCY",
+											"id": "KDrEnd2l0bh7wcVemrmve",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 60,
@@ -5508,9 +5865,9 @@
 									],
 									"up": [
 										{
-											"id": "LE_avzk4BZkAOAKmg9JFF",
+											"id": "g5lkBfy4H5cKN5ArwLyXp",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 60,
@@ -5553,9 +5910,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "NqylI-kp0HYFQoTpf5w1f",
+											"id": "ZwC3xw-qky6Kik1RuZQK3",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 62,
@@ -5569,9 +5926,9 @@
 									],
 									"up": [
 										{
-											"id": "IlZC_tl4cJgbiSDBC1KlD",
+											"id": "RXSl8EUFJhDVV98QzIDKK",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 62,
@@ -5614,9 +5971,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "nx_aCxb5GCxlGcxeHwST3",
+											"id": "I8iiMjI1qocOflLibHiBM",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 64,
@@ -5630,9 +5987,9 @@
 									],
 									"up": [
 										{
-											"id": "o1L7g21f4uzYZcGKOdCqt",
+											"id": "xaIUyTQFrdQqO3B2KH07a",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 64,
@@ -5675,9 +6032,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "7geLfHjp8qrwR8vEbTGEW",
+											"id": "C9y61VqYAC2HDKIjINO4U",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 65,
@@ -5691,9 +6048,9 @@
 									],
 									"up": [
 										{
-											"id": "9BSfX_5M6-s8QbQQltU_-",
+											"id": "y2HzWzttTkmzYmq8TERZB",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 65,
@@ -5738,9 +6095,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "3G4fHf_prAtCToQ7HJqVW",
+											"id": "o7EtaP1O-9bzJ07RaxW33",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 67,
@@ -5754,9 +6111,9 @@
 									],
 									"up": [
 										{
-											"id": "o8ndgJsjdMPy9EHsZj2jU",
+											"id": "J28CxytGEPeqYLtGt-38H",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 67,
@@ -5799,9 +6156,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "JH_7y2j415TtLRISlWu5u",
+											"id": "ERzF-q6oN8AF5V6BjTRYy",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 69,
@@ -5815,9 +6172,9 @@
 									],
 									"up": [
 										{
-											"id": "ei08e8M3Fc1b8ISFrPnEO",
+											"id": "-waTZDPSv8-46MxhrfY2-",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 69,
@@ -5860,9 +6217,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "GcyzHNin4DMJ7q96DgatR",
+											"id": "2dhV2rOeNIRLBOM8J6bvM",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 71,
@@ -5876,9 +6233,9 @@
 									],
 									"up": [
 										{
-											"id": "XYMUw4Jc_mEFrSYqVqnKq",
+											"id": "4w0NnvjhnhyaXGIHcscUU",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 71,
@@ -5921,9 +6278,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "tpesrAV1mbvk6Qa204AlJ",
+											"id": "FZMKbxP_PB1rev9ySwhce",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 72,
@@ -5937,9 +6294,9 @@
 									],
 									"up": [
 										{
-											"id": "cQHL1WFWlRqlhnDKE_S2T",
+											"id": "zI02U8W-q-sI4shw54P83",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 72,
@@ -5982,9 +6339,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "uw5gBEFwE-xuMsimSOZWJ",
+											"id": "ZcezeKUe4C6srLKRAIlOW",
 											"action": "noteon",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 74,
@@ -5998,9 +6355,9 @@
 									],
 									"up": [
 										{
-											"id": "DKKO-aTuSJHz9awUacA6H",
+											"id": "BCIYYqn1YPfrD2R2HKRA5",
 											"action": "noteoff",
-											"instance": "fSosTnHDZNrIMtyiuD-20",
+											"instance": "NMZ0blTZGnhScMGoWNlMm",
 											"options": {
 												"channel": 1,
 												"note": 74,
@@ -6056,7 +6413,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "0u-JNCmKZSwnBa2b2bZ1Q",
+											"id": "gcuj2JcaSqCg0StUaU7Hs",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -6070,7 +6427,7 @@
 											"delay": 0
 										},
 										{
-											"id": "XSJLDklIIRFYoxbvY4XVJ",
+											"id": "Zy7f7mypYjnrvpUn7a7DA",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -6147,11 +6504,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "6QPmJ195RdZ98HSfHCRAu",
+											"id": "ApmSr7PV_EJB75stfmeZq",
 											"action": "start_rewind",
-											"instance": "PzidkbrpoKieE6CDk886F",
+											"instance": "RK8bwQTjOefFUy6k6dx9S",
 											"options": {},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": -1
 										}
 									],
 									"up": []
@@ -6186,11 +6544,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "mG3XEbEIRmOrNlhpBeQE_",
+											"id": "lgXhms4CN3NEYoDSgMWga",
 											"action": "pause",
-											"instance": "PzidkbrpoKieE6CDk886F",
+											"instance": "RK8bwQTjOefFUy6k6dx9S",
 											"options": {},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": -1
 										}
 									],
 									"up": []
@@ -6225,11 +6584,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cY4w9gpdEAW4w7NHqvvkz",
+											"id": "W7FDRd0WaxMYaQnRuppBA",
 											"action": "play",
-											"instance": "PzidkbrpoKieE6CDk886F",
+											"instance": "RK8bwQTjOefFUy6k6dx9S",
 											"options": {},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": -1
 										}
 									],
 									"up": []
@@ -6264,11 +6624,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "j32JAezkKQ2oXWsfDYT4P",
+											"id": "s7bVnR6EgJPtIEsH7GL3B",
 											"action": "start_forward",
-											"instance": "PzidkbrpoKieE6CDk886F",
+											"instance": "RK8bwQTjOefFUy6k6dx9S",
 											"options": {},
-											"delay": 0
+											"delay": 0,
+											"upgradeIndex": -1
 										}
 									],
 									"up": []
@@ -6316,7 +6677,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "vRE7nTwskgpW4p17yH7R7",
+											"id": "31lCnd4X1VtdT0QrKFfP8",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -6330,7 +6691,7 @@
 											"delay": 0
 										},
 										{
-											"id": "IpCBTSeqPkZyQNfSqEJaK",
+											"id": "szrCrRAUMXx-0WSA-Rl-7",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -6418,7 +6779,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "KFZtsy79-b8gn5PkRQoxq",
+											"id": "xK4R7vITKkzRcXwDW50IY",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -6432,7 +6793,7 @@
 											"delay": 0
 										},
 										{
-											"id": "giaGg_BUR9-R-1-H1Ubpq",
+											"id": "so89dtuCd8y5w7qsYk0cp",
 											"action": "button_press",
 											"instance": "internal",
 											"options": {
@@ -8621,7 +8982,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "wWnsxWH7afUAahlMxdXJw",
+											"id": "j7161L8Ly_Or-AsCC35Bn",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -8663,11 +9024,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "AyFmbnps7kkwPgzypzXxP",
+								"id": "yGWGSv_OM6tpCV0cPbMT3",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "8v9EzNjrF0eRt-JTJuVnn",
+									"instance_id": "ShOwRPIgt7_vlL2ahRGzR",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8713,11 +9074,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "VX7lmnwtu7cq9S3A8UfwM",
+								"id": "nHr7tDTYf23J2feAt0fxP",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "XBduAAAU76gCjTGfWQFOq",
+									"instance_id": "5hulcqeppr8pIs7FgRZ2f",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8763,11 +9124,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "ShRsv3M14Tj-WuTtnSSPb",
+								"id": "aWwuxCEKPGcVwe6afriwj",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "qesBxMFLFjUagTosWtvRA",
+									"instance_id": "rfbwa8ITsSe6M1iB26Iqn",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8813,11 +9174,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Op3s565QhNjF9y9vHUKhq",
+								"id": "2k-PwlkflVZc9WvXYXkAT",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "fSosTnHDZNrIMtyiuD-20",
+									"instance_id": "NMZ0blTZGnhScMGoWNlMm",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8896,11 +9257,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "2LqURiXkOQKJDufQVURqZ",
+								"id": "FsEbiN08YasD2BXX03j4r",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "w0GG16A6cluuhgsEPBpg-",
+									"instance_id": "BQKiYgvH3dAyRQnVE4N-0",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8946,11 +9307,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "1aNVIOAOJA_xdlYbG7EVV",
+								"id": "volGuzgPZK8zRWj0mqOSk",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "WZFjtI3qLDlzbmwGoyKIi",
+									"instance_id": "jdllcbu7O2YJzDGDFFOHw",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -8996,11 +9357,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "XZ2x8hk_3dOl0o4CehZp4",
+								"id": "xtoL5qmZlcuF_t_UCfXuR",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "PzidkbrpoKieE6CDk886F",
+									"instance_id": "RK8bwQTjOefFUy6k6dx9S",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -9046,11 +9407,11 @@
 						},
 						"feedbacks": [
 							{
-								"id": "5pmobgL8mlSBkaj8_Q7ix",
+								"id": "phzIXvbBwjwJ35AtqV0Xy",
 								"type": "instance_status",
 								"instance_id": "internal",
 								"options": {
-									"instance_id": "rorEtitvlo4AjM1JtsRqq",
+									"instance_id": "ngIdQPtT-poI44IaehRxN",
 									"ok_fg": 16777215,
 									"ok_bg": 51200,
 									"warning_fg": 0,
@@ -9102,22 +9463,31 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "T4qA99TqMr5PxXxNthnhT",
+											"id": "NJw1hxJDA7T-wp7bnlGrz",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli dev disconnect wlan0"
 											},
 											"delay": 0
 										},
 										{
-											"id": "U1tOp2vrVDtoGK9QoYIng",
+											"id": "-PM_gl44k3ma7UMH1w0r6",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
+											"options": {
+												"cmd": "sudo nmcli device wifi rescan"
+											},
+											"delay": 10
+										},
+										{
+											"id": "IL9Q0IhfQsvscNZCK9XOm",
+											"action": "execCommand",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli device wifi connect \"iPhone de Clement\""
 											},
-											"delay": 10
+											"delay": 20
 										}
 									],
 									"up": []
@@ -9152,27 +9522,27 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "AnA3Sa0XD0pi_B_KQka7i",
+											"id": "IGac49ChyynfC53u2Bni8",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection down ConnexionEthernetDHCP"
 											},
 											"delay": 0
 										},
 										{
-											"id": "2wUNzBQEqqzybtOzispTl",
+											"id": "78Bb2Fb2ED3lyOk-mS7SL",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection modify ConnexionEthernet ipv4.method manual ipv4.addresses 192.168.42.98/24"
 											},
 											"delay": 10
 										},
 										{
-											"id": "RJSsu8pdFDQn6jVi8mqUM",
+											"id": "oVdqTCK2CrXU36T6x70Ub",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection up ConnexionEthernet"
 											},
@@ -9211,27 +9581,27 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "vSbDCODDQIUjuAP8dsg2x",
+											"id": "kH6lUxSxMsHo6xOXcM8so",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection down ConnexionEthernetDHCP"
 											},
 											"delay": 0
 										},
 										{
-											"id": "gwO3bT5FYgYyDosb7EXEK",
+											"id": "LcjB-1cUxsXP0gVxwe6YV",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection modify ConnexionEthernet ipv4.method manual ipv4.addresses 192.168.42.98/16"
 											},
 											"delay": 10
 										},
 										{
-											"id": "x3QVKY6hXYSp3VvvL-ux9",
+											"id": "bHG5cmT923fDyikqZczvV",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection up ConnexionEthernet"
 											},
@@ -9270,27 +9640,27 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Q740HzO7eJ_imHCEnFFEW",
+											"id": "_MEJKcTynyPxAG6Uj0Uay",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection down ConnexionEthernetDHCP"
 											},
 											"delay": 0
 										},
 										{
-											"id": "qAIrQPLIqxlP_G1ZYpzWi",
+											"id": "GhoDEAVQZES_pN0vmu1QX",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection modify ConnexionEthernet ipv4.method manual ipv4.addresses 192.168.1.98/24"
 											},
 											"delay": 10
 										},
 										{
-											"id": "-EseOfhtJ3H_ZnUtOpUGG",
+											"id": "wS-4h95pwil8DPwbylPNc",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection up ConnexionEthernet"
 											},
@@ -9329,18 +9699,18 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "QNdeoVg6I6tPCbMLwoiD4",
+											"id": "FU77ZvjenHAssjyECCP5y",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection down ConnexionEthernet"
 											},
 											"delay": 0
 										},
 										{
-											"id": "K8BKpCIfty-Da7Yr5FlUp",
+											"id": "kGOd8mGpTpanurZ6__kA6",
 											"action": "execCommand",
-											"instance": "w0GG16A6cluuhgsEPBpg-",
+											"instance": "BQKiYgvH3dAyRQnVE4N-0",
 											"options": {
 												"cmd": "sudo nmcli connection up ConnexionEthernetDHCP ipv4.method auto"
 											},
@@ -9392,7 +9762,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ajvl_I67GWjQNvQN00UO5",
+											"id": "7Ho1v9l3SzQjRdpVXN527",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9471,7 +9841,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "KFoFgUoFr92fKnNW4j5uE",
+											"id": "0qjWHRii2VvaGtLe2fBI4",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9530,7 +9900,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "m91kQysTYVSBb4IuG_ODi",
+											"id": "eO7g9-jIX3qoOFrT_AJgk",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9576,7 +9946,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "qcxrisXBbZrS_689fkbNs",
+											"id": "mZdjK7rDj_yTqLLTMe3LU",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9622,7 +9992,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "phJmhpked5SuCU0OK6OJR",
+											"id": "HbV8xZ-pQ2zgtVAgAvjEh",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9668,7 +10038,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Mjy2Km3Zv_0Y5i2uB1S0G",
+											"id": "uawICykZFKbplZsKZIRhb",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9714,7 +10084,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "FMGlrCA_aIFooAB79b0nW",
+											"id": "MTWBPSp3wWtiXAAbl3dyK",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9762,7 +10132,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "W2Fgqv6KEcaI2CDSavMC3",
+											"id": "JBtgK4320xFuWyiHmVkWZ",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9808,7 +10178,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "kt-2PBcPy0Ur9XEvWj8gy",
+											"id": "Uxqb7FHJkpp6R-cwonniB",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9854,7 +10224,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "PTU52f9y5tVaQl3pQKRmX",
+											"id": "rh6HGkJmUfz47_dVhZUkw",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9900,7 +10270,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "t5DO4u_hS1ZT2uIravR9q",
+											"id": "S8PdBVhFp-VAn5aAhLLQx",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9946,7 +10316,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "6eT4UUMq_MrU7P3ejjLbt",
+											"id": "3QPEqwwYBstucjr5L22qP",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9994,7 +10364,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "dIBWYl3U3RgXpH0cvKxr4",
+											"id": "QRPrsjvT82O-CM3CK6RqX",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -10040,7 +10410,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "6dROvgnahACSL76VQiI44",
+											"id": "wb8wxbLWYZN-BJV4HOKD-",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -10086,7 +10456,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "p8nOdO-6VhiKwUQlNyGT6",
+											"id": "KLZy0AD1NOuWZF5c24zi6",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -10132,7 +10502,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cGa38P81tFTuHPf0M26J8",
+											"id": "M5dmKV4iPT3qEuHqwTogK",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -10178,7 +10548,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "xlbahR3fZ3H_hRwAesEJC",
+											"id": "IwavgVC-985jHLnFK5-8z",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -10228,9 +10598,9 @@
 	},
 	"custom_variables": {},
 	"instances": {
-		"8v9EzNjrF0eRt-JTJuVnn": {
+		"ShOwRPIgt7_vlL2ahRGzR": {
 			"instance_type": "generic-tcp-udp",
-			"sortOrder": 0,
+			"sortOrder": 1,
 			"label": "TCP-Ecran-7005",
 			"isFirstInit": false,
 			"config": {
@@ -10243,9 +10613,9 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"XBduAAAU76gCjTGfWQFOq": {
+		"5hulcqeppr8pIs7FgRZ2f": {
 			"instance_type": "generic-tcp-udp",
-			"sortOrder": 1,
+			"sortOrder": 2,
 			"label": "TCP-GPIO-out",
 			"isFirstInit": false,
 			"config": {
@@ -10258,9 +10628,9 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"qesBxMFLFjUagTosWtvRA": {
+		"rfbwa8ITsSe6M1iB26Iqn": {
 			"instance_type": "generic-midi",
-			"sortOrder": 2,
+			"sortOrder": 3,
 			"label": "MIDI-through",
 			"isFirstInit": false,
 			"config": {
@@ -10272,9 +10642,9 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"fSosTnHDZNrIMtyiuD-20": {
+		"NMZ0blTZGnhScMGoWNlMm": {
 			"instance_type": "generic-midi",
-			"sortOrder": 3,
+			"sortOrder": 4,
 			"label": "MIDI-rtpMidi",
 			"isFirstInit": false,
 			"config": {
@@ -10286,21 +10656,9 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"3r2aGaqxkO1m5DdjzBNwf": {
-			"instance_type": "luminex-gigacore",
-			"sortOrder": 10,
-			"label": "GigaCore",
-			"isFirstInit": false,
-			"config": {
-				"gen1": false,
-				"password": ""
-			},
-			"lastUpgradeIndex": -1,
-			"enabled": false
-		},
-		"w0GG16A6cluuhgsEPBpg-": {
+		"BQKiYgvH3dAyRQnVE4N-0": {
 			"instance_type": "generic-ssh",
-			"sortOrder": 4,
+			"sortOrder": 5,
 			"label": "SSH-Pi",
 			"isFirstInit": false,
 			"config": {
@@ -10313,22 +10671,7 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"th48xFLd8waHnSP6dH4N_": {
-			"instance_type": "shure-wireless",
-			"sortOrder": 9,
-			"label": "shure-wx",
-			"isFirstInit": false,
-			"config": {
-				"port": 2202,
-				"modelID": "ulxd4",
-				"meteringOn": true,
-				"meteringInterval": 5000,
-				"variableFormat": "units"
-			},
-			"lastUpgradeIndex": 0,
-			"enabled": false
-		},
-		"WZFjtI3qLDlzbmwGoyKIi": {
+		"jdllcbu7O2YJzDGDFFOHw": {
 			"instance_type": "yamaha-rcp",
 			"sortOrder": 6,
 			"label": "yamaha-rcp",
@@ -10339,10 +10682,10 @@
 				"metering": false,
 				"meterSpeed": 100
 			},
-			"lastUpgradeIndex": 4,
+			"lastUpgradeIndex": -1,
 			"enabled": false
 		},
-		"PzidkbrpoKieE6CDk886F": {
+		"RK8bwQTjOefFUy6k6dx9S": {
 			"instance_type": "cockos-reaper",
 			"sortOrder": 7,
 			"label": "reaper",
@@ -10355,7 +10698,7 @@
 			"lastUpgradeIndex": -1,
 			"enabled": false
 		},
-		"rorEtitvlo4AjM1JtsRqq": {
+		"ngIdQPtT-poI44IaehRxN": {
 			"instance_type": "audivero-unityintercom-client",
 			"sortOrder": 8,
 			"label": "unityintercom-client",
@@ -10365,7 +10708,34 @@
 				"port": 20119,
 				"verbose": false
 			},
-			"lastUpgradeIndex": 0,
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		},
+		"nT_9LQWMnVilE1eqOsBOc": {
+			"instance_type": "shure-wireless",
+			"sortOrder": 9,
+			"label": "shure-wx",
+			"isFirstInit": false,
+			"config": {
+				"port": 2202,
+				"modelID": "ulxd4",
+				"meteringOn": true,
+				"meteringInterval": 5000,
+				"variableFormat": "units"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": false
+		},
+		"7dpuYUj3XbjxPMyDefsDE": {
+			"instance_type": "luminex-gigacore",
+			"sortOrder": 10,
+			"label": "GigaCore",
+			"isFirstInit": false,
+			"config": {
+				"gen1": false,
+				"password": ""
+			},
+			"lastUpgradeIndex": -1,
 			"enabled": false
 		}
 	},
