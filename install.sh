@@ -33,6 +33,7 @@ sudo apt install -y pmount
 sudo apt install -y lilv-utils
 sudo apt install -y ffmpeg
 sudo apt install -y mediainfo
+sudo apt install -y shairport-sync
 echo "Installation APT complète !"
 
 echo "Installation de Companion ... "
@@ -148,6 +149,10 @@ echo "Charger le module VirMidi pour créer des ports midi peripheriques virtuel
 echo "snd_virmidi" | sudo tee -a /etc/modules
 echo "snd_virmidi Chargé"
 
+echo "Charger le module snd-aloop pour créer une carte son virutelle Alsa pour créer un lien Applications Alsa <> Jackd"
+echo "snd-aloop" | sudo tee -a /etc/modules
+echo "snd-aloop Chargé"
+
 echo "Activer i2c sur le Raspberry"
 sudo raspi-config nonint do_i2c 0
 echo "i2c pour écran oled activé !"
@@ -163,6 +168,8 @@ sudo cp /home/pi/systemconfig/tcp-to-gpio.service /etc/systemd/system/tcp-to-gpi
 sudo cp /home/pi/systemconfig/raveloxmidi.conf /etc/raveloxmidi.conf
 sudo cp /home/pi/systemconfig/raveloxmidi.service /etc/systemd/system/raveloxmidi.service
 sudo cp /home/pi/systemconfig/demarrage-aes67.service /etc/systemd/system/demarrage-aes67.service
+sudo cp /home/pi/systemconfig/asound.conf /etc/asound.conf
+sudo cp /home/pi/systemconfig/asoundrc /home/pi/.asoundrc
 sudo rm -R /home/pi/systemconfig
 
 echo "Modification des droits des Projets et scripts"
