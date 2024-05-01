@@ -45,6 +45,7 @@ Affichage alternatif
 ### Fonctions audio via Jackd :
   - Multi-Fx commutable avec : Delay 3s / Reverb / Pitch High / Pitch Low
   - Repondeur Audio depuis commandes Midi (GPIO in) avec Annonce d'accueil, Enregistrement des messages, relecture, Suppressions des enregistrements
+  - AirPlay client (via Alsa Loopback)
 
 ### Companion :
   - Menu d'acces aux differentes pages
