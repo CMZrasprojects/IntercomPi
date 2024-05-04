@@ -505,17 +505,17 @@ if variable == "start":
                     if selected_file:
                         play_audio(selected_file)
                         update_log_played(filepath = selected_file, has_message=False)
-        elif note == 64:  # Note E4 : Selectionner fichier en haut de la liste (plus récent
+        elif note == 64:  # Note E4 : Selectionner fichier en haut de la liste (le plus récent)
             if is_note_on and velocity == 127:
                 update_log_last_selected()
                 get_filename()
                 send_tcp_info("info4_$Dernier message selectionné$$", filename_selected, "$")
-        elif note == 65:  # Note F4 : Selectionner fichier suivant (plus ancien)
+        elif note == 72:  # Note C5 : Selectionner fichier suivant (plus ancien)
             if is_note_on and velocity == 127:
                 update_log_next_selected()
                 get_filename()
                 send_tcp_info("info4_$Message selectionné :$$", filename_selected, "$")
-        elif note == 67:  # Note G4 : Enregistrer Annonce d'accueil
+        elif note == 77:  # Note F5 : Enregistrer Annonce d'accueil
             if is_note_on:
                 if velocity == 127:
                     start_recording_accueil()
@@ -530,27 +530,27 @@ if variable == "start":
                 send_tcp_info("info4_$Suppression du message$selectionné :$", filename_selected, "$")
                 time.sleep(0.1)
                 update_log_last_selected()
-        elif note == 71:  # Note B4 : Supprimer tous les fichiers sauf le dernier
+        elif note == 76:  # Note E5 : Supprimer tous les fichiers sauf le dernier
             if is_note_on and velocity == 127:
                 delete_all_but_last()
                 send_tcp_info("info4_$Suppression de tous$$les messages$")
                 update_log_last_selected()
-        elif note == 73:  # Note C5 : Selectionner fichier précédent (plus récent)
+        elif note == 74:  # Note D5 : Selectionner fichier précédent (plus récent)
             if is_note_on and velocity == 127:
                 update_log_prev_selected()
                 get_filename()
                 send_tcp_info("info4_$Message selectionné :$$", filename_selected, "$")
-        elif note == 75:  # Note D5 : Lire une musique d'attente
+        elif note == 67:  # Note G4 : Lire une musique d'attente
             if is_note_on and velocity == 127:
                 play_audio_attente()
                 send_tcp_info("info4_$Musique d'attente$$en lecture...$")
-        elif note == 77:  # Note E5 : Transcrire le fichier selectionné en texte dans le dossier transcription
+        elif note == 79:  # Note G5 : Transcrire le fichier selectionné en texte dans le dossier transcription
             if is_note_on and velocity == 127:
                 selected_file = select_file()
                 path_audio_a_transcrire = selected_file
                 texte_transcrit = transcrire_audio(path_audio_a_transcrire)
                 send_tcp_info("info4_$Transcription...$$$")
-        elif note == 78:  # Note F5 :Transcrire le fichier audio selectionné en texte, poser la question à bing-gpt puis lire la reponse avec gtts
+        elif note == 65:  # Note F4 :Transcrire le fichier audio selectionné en texte, poser la question à bing-gpt puis lire la reponse avec gtts
             if is_note_on:
                 if velocity == 127:
                     send_tcp_info("info4_$Chat en cours...$$$")
@@ -559,7 +559,7 @@ if variable == "start":
                     stop_recording()
                     question_transcrit = transcrire_audio_chat("/home/pi/Projet/repondeur/chat/question.wav")
                     play_audio_chat(question_transcrit)
-        elif note == 80:  # Note D5 : Arreter la lecture audio
+        elif note == 71:  # Note B4 : Arreter la lecture audio
             if is_note_on and velocity == 127:
                 stop_audio()
                 send_tcp_info("info4_$Arret de la lecture$$$")
